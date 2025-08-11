@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: white !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh !important; /* para ocupar 100% da altura da página */
+    line-height: 1.6 !important; /* espaçamento entre as linhas */
+}
+
+.topo{
+    background-color: blanchedalmond !important;
+    padding-top: 1em !important;
+}
+
+.topo img{
+    width: 230px;
+    margin-left: 30% !important;
+   
+}
+
+.nav-item{
+    margin-right: 6em !important;
+}
+
+.nav-link{
+    color: rgb(0, 128, 0) !important;
+    font-size: 1.2em !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    margin-left: 10% !important;
+
+}
+
+
+footer {
+    background-color: blanchedalmond !important;
+    text-align: center !important;
+    color: rgb(0, 128, 0) !important;
+    padding: 1em !important;
+}
+
+/* Estilos para seções */
+section {
+    background-color: rgba(255, 255, 255, 0.875) !important;
+    padding: 3em !important;
+    margin: 1em !important;
+    border-radius: 1em !important;
+    box-shadow: 0px 2px 4px gray !important;
+}
+
+ .card-title{
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .card-text{
+    font-size: 0.8em;
+ }
+
+ .ajuste{
+    margin-left: 15% !important;
+    text-align: center !important;
+ }
